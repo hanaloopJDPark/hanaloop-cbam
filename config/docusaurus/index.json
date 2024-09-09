@@ -2,7 +2,7 @@
   "label": "Settings",
   "logo": {
     "alt": "Tina",
-    "src": ""
+    "src": "/img/hanaloop-logo.png"
   },
   "title": "Hanaloop CBAM Insight",
   "url": "https://hanaloop-cbam.vercel.app/",
