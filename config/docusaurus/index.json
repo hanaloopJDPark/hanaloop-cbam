@@ -2,7 +2,7 @@
   "label": "Settings",
   "logo": {
     "alt": "Tina",
-    "src": "/img/tina-icon.svg"
+    "src": ""
   },
   "title": "Hanaloop CBAM Insight",
   "url": "https://hanaloop-cbam.vercel.app/",
@@ -24,18 +24,6 @@
       "docLink": "src/pages/Test-MDX-Page.mdx",
       "pageLink": "src/pages/Test-MDX-Page.mdx",
       "position": "left"
-    },
-    {
-      "label": "Docusaurus GitHub",
-      "link": "external",
-      "externalLink": "https://github.com/facebook/docusaurus",
-      "position": "right"
-    },
-    {
-      "label": "Tina",
-      "link": "external",
-      "externalLink": "https://tina.io/",
-      "position": "right"
     }
   ],
   "footer": {
