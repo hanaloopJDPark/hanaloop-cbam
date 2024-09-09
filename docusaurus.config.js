@@ -2,6 +2,7 @@ const docusaurusData = require("./config/docusaurus/index.json");
 
 const lightCodeTheme = require("prism-react-renderer").themes.github;
 const darkCodeTheme = require("prism-react-renderer").themes.dracula;
+import tailwindPlugin from "./plugins/tailwind-config.cjs";
 
 const getDocId = (doc) => {
   return doc
@@ -93,6 +94,7 @@ const config = {
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
+  plugins: [tailwindPlugin],
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
