@@ -7,7 +7,7 @@ export const HeroBlockTemplate = {
     {
       name: "title",
       label: "Title",
-      description: "By default this is the site title",
+      description: "edit test",
       type: "string",
     },
     {

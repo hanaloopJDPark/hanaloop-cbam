@@ -24,7 +24,7 @@ export const Hero = ({ data, index }) => {
           <div className={styles.buttons}>
             <Link
               className="button button--secondary button--lg"
-              to={getDocPath(data.document)}
+              to={'https://www.hanaloop.com/'}
             >
               {data.documentLabel
                 ? data.documentLabel
