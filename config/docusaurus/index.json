@@ -8,21 +8,8 @@
   "url": "https://hanaloop-cbam.vercel.app/",
   "navbar": [
     {
-      "label": "Docs",
-      "link": "doc",
-      "docLink": "docs/intro.mdx",
-      "position": "left"
-    },
-    {
       "label": "Blog",
       "link": "blog",
-      "position": "left"
-    },
-    {
-      "label": "MDX Page",
-      "link": "page",
-      "docLink": "src/pages/Test-MDX-Page.mdx",
-      "pageLink": "src/pages/Test-MDX-Page.mdx",
       "position": "left"
     }
   ],
