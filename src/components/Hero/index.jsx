@@ -11,9 +11,9 @@ export const Hero = ({ data, index }) => {
   return (
     <header
       key={index}
-      className={clsx("hero hero--primary", styles.heroBanner)}
+      className="flex justify-center"
     >
-      <div className="container">
+      <div className="container flex flex-col items-center p-20">
         <h1 className="hero__title">
           {data.title ? data.title : siteConfig.title}
         </h1>
