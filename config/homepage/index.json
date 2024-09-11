@@ -10,7 +10,7 @@
     },
     {
       "title": "CBAM 시리즈",
-      "description": "Extend or customize your website layout by reusing React. Docusaurus can         be extended while reusing the same header and footer. Extend or customize your website layout by reusing React. Docusaurus can         be extended while reusing the same header and footer.\n",
+      "description": "TEST 입니다TEST 입니다TEST 입니다TEST 입니다TEST 입니다TEST 입니다TEST 입니다TEST 입니다TEST 입니다TEST 입니다TEST 입니다TEST 입니다TEST 입니다TEST 입니다TEST 입니다\n\nTEST 입니다TEST 입니다TEST 입니다TEST 입니다TEST 입니다\n",
       "image": "/img/CBAM_.png",
       "_template": "explain"
     },
@@ -23,53 +23,33 @@
         },
         {
           "title": "EU CBAM - 비교로 개념 잡기",
-          "description": "한국 배출권거래제와 CBAM 비교를 통한 이해",
+          "description": "한국 배출권거래제와 CBAM 비교를 통한 이해\n",
           "image": "/img/undraw_docusaurus_tree.svg"
         },
         {
           "title": "EU CBAM 품목별, 수출 방법별 보고",
-          "description": "CBAM의 각 품목별 고려 사항 및 보고 방법별 대응",
+          "description": "CBAM의 각 품목별 고려 사항 및 보고 방법별 대응\n",
           "image": "/img/undraw_docusaurus_react.svg"
         },
         {
           "title": "EU CBAM 전환 기간 보고서 작성 절차",
-          "description": "CBAM 대응 접근 방법 및 보고서 작성 절차 안내",
+          "description": "CBAM 대응 접근 방법 및 보고서 작성 절차 안내\n",
           "image": "/img/undraw_docusaurus_react.svg"
         },
         {
           "title": "EU CBAM 고유내재배출 구하기",
-          "description": "CBAM 내재배출 구성 및 제품 내재배출량 산정 방법",
+          "description": "CBAM 내재배출 구성 및 제품 내재배출량 산정 방법\n",
           "image": "/img/undraw_docusaurus_react.svg"
         },
         {
           "title": "EU CBAM 어떻게 준비하면 될까요?",
-          "description": "하나에코를 통한 CBAM 대응",
+          "description": "하나에코를 통한 CBAM 대응\n",
           "image": "/img/undraw_docusaurus_react.svg"
         }
       ],
       "_template": "posts"
     },
     {
-      "items": [
-        {
-          "title": "CBAM 주요개념 및 보고서 개요",
-          "url": "https://www.youtube.com/embed/40GR-XeHkD8",
-          "caption": "[하나루프] 탄소국경조정제도(CBAM) 주요개념 및 EU CBAM 보고서 개요 - 기후 인사이트 수요일(2023.12.06)",
-          "_template": "youTubeEmbed"
-        },
-        {
-          "title": "CBAM 보고서 준비하기",
-          "url": "https://www.youtube.com/embed/ymIAbswkWog",
-          "caption": "[하나루프] EU 탄소국경조정제도(CBAM) 보고서 준비하기",
-          "_template": "youTubeEmbed"
-        },
-        {
-          "title": "CBAM, 배터리 규제",
-          "url": "https://www.youtube.com/embed/WmwazB1N30M",
-          "caption": "[하나루프] EU 탄소국경조정제도(CBAM), 배터리 규제 등 국내외 기후규제는 우리 조직에게 위기일까? 기회일까? - 경영진편",
-          "_template": "youTubeEmbed"
-        }
-      ],
       "_template": "youTubeEmbed"
     }
   ]
