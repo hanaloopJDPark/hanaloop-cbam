@@ -1,5 +1,5 @@
 import React from "react";
-import { Features } from "../Features";
+import { Posts } from "../Posts";
 import { Hero } from "../Hero";
 import { YouTubeEmbed } from "../YouTubeEmbed";
 import {ExplainPanel} from "../ExplainPanel";
@@ -16,10 +16,10 @@ export const Blocks = ({ blocks }) => {
                     <Hero data={block} index={i} />
                   </div>
                 );
-              case "features":
+              case "posts":
                 return (
                   <div data-tinafield={`blocks.${i}`} key={i + block._template}>
-                    <Features data={block} index={i} />
+                    <Posts data={block} index={i} />
                   </div>
                 );
               case "explain":

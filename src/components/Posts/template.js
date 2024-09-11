@@ -1,10 +1,10 @@
-export const FeaturesBlockTemplate = {
-  name: "features",
-  label: "Features",
+export const PostsBlockTemplate = {
+  name: "posts",
+  label: "Posts",
   fields: [
     {
       name: "items",
-      label: "Features",
+      label: "Posts",
       type: "object",
       list: true,
       ui: {

@@ -1,7 +1,7 @@
 {
   "label": "Homepage",
-  "title": "Hanaloop CBAM insight",
-  "description": "Hanaloop CBAM insight webpage",
+  "title": "Hanaloop insight",
+  "description": "Hanaloop insight webpage",
   "blocks": [
     {
       "document": "docs/intro.mdx",
@@ -47,7 +47,7 @@
           "image": "/img/undraw_docusaurus_react.svg"
         }
       ],
-      "_template": "features"
+      "_template": "posts"
     },
     {
       "items": [
