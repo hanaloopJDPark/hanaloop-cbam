@@ -10,7 +10,7 @@ export default function Home() {
 
   return (
     <Layout
-      title={pageData && pageData.title ? pageData.title : siteConfig.title}
+      title={pageData && pageData.title ? pageData.itle : siteConfig.title}
       description={
         pageData && pageData.description
           ? pageData.description

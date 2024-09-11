@@ -2,6 +2,7 @@ import React from "react";
 import { defineConfig, TextField } from "tinacms";
 import { ReferenceField } from "tinacms";
 import { FeaturesBlockTemplate } from "../src/components/Features/template";
+import { ExplainBlockTemplate } from "../src/components/ExplainPanel/template";
 import { HeroBlockTemplate } from "../src/components/Hero/template";
 import { YouTubeEmbedBlockTemplate } from "../src/components/YouTubeEmbed/template";
 import { MDXTemplates } from "../src/theme/template";
@@ -789,6 +790,7 @@ const HomepageCollection = {
         HeroBlockTemplate,
         FeaturesBlockTemplate,
         YouTubeEmbedBlockTemplate,
+        ExplainBlockTemplate
       ],
     },
   ],

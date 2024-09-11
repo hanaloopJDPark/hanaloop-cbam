@@ -9,20 +9,41 @@
       "_template": "hero"
     },
     {
+      "title": "CBAM 시리즈",
+      "description": "Extend or customize your website layout by reusing React. Docusaurus can         be extended while reusing the same header and footer. Extend or customize your website layout by reusing React. Docusaurus can         be extended while reusing the same header and footer.\n",
+      "image": "/img/CBAM_.png",
+      "_template": "explain"
+    },
+    {
       "items": [
         {
-          "title": "Easy to Use",
-          "description": "Docusaurus was designed from the ground up to be easily installed and         used to get your website up and running quickly.\n",
+          "title": "EU CBAM 개념 5분 정리",
+          "description": "CBAM이 무엇인가, CBAM에 대응하기 위해 무엇을 알고 준비해야 하는가에 대해 다룹니다.",
           "image": "/img/undraw_docusaurus_mountain.svg"
         },
         {
-          "title": "Focus on What Matters",
-          "description": "Docusaurus lets you focus on your docs, and we'll do the chores. Go ahead and move your docs into the docs directory.\n",
+          "title": "EU CBAM - 비교로 개념 잡기",
+          "description": "한국 배출권거래제와 CBAM 비교를 통한 이해",
           "image": "/img/undraw_docusaurus_tree.svg"
         },
         {
-          "title": "Powered by React",
-          "description": "Extend or customize your website layout by reusing React. Docusaurus can         be extended while reusing the same header and footer.\n",
+          "title": "EU CBAM 품목별, 수출 방법별 보고",
+          "description": "CBAM의 각 품목별 고려 사항 및 보고 방법별 대응",
+          "image": "/img/undraw_docusaurus_react.svg"
+        },
+        {
+          "title": "EU CBAM 전환 기간 보고서 작성 절차",
+          "description": "CBAM 대응 접근 방법 및 보고서 작성 절차 안내",
+          "image": "/img/undraw_docusaurus_react.svg"
+        },
+        {
+          "title": "EU CBAM 고유내재배출 구하기",
+          "description": "CBAM 내재배출 구성 및 제품 내재배출량 산정 방법",
+          "image": "/img/undraw_docusaurus_react.svg"
+        },
+        {
+          "title": "EU CBAM 어떻게 준비하면 될까요?",
+          "description": "하나에코를 통한 CBAM 대응",
           "image": "/img/undraw_docusaurus_react.svg"
         }
       ],

@@ -27,5 +27,5 @@ export const HeroBlockTemplate = {
       label: "Button Text",
       type: "string",
     },
-  ],
+  ]
 };
