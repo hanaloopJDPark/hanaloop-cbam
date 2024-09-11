@@ -4,6 +4,10 @@
   "description": "Hanaloop insight webpage",
   "blocks": [
     {
+      "heading": "Test",
+      "_template": "heading"
+    },
+    {
       "document": "docs/intro.mdx",
       "documentLabel": "Hanaloop",
       "_template": "hero"

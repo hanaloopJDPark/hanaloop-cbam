@@ -8,6 +8,7 @@ import { YouTubeEmbedBlockTemplate } from "../src/components/YouTubeEmbed/templa
 import { MDXTemplates } from "../src/theme/template";
 import { docusaurusDate, titleFromSlug } from "../util";
 import title from "title";
+import { HeadingTemplate } from "../src/components/Heading/template";
 
 // Your hosting provider likely exposes this as an environment variable
 const branch =
@@ -762,6 +763,11 @@ const HomepageCollection = {
       },
     },
     {
+      name: "heading",
+      label: "Heading",
+      type: "string"
+    },
+    {
       type: "string",
       label: "Label",
       name: "label",
@@ -787,6 +793,7 @@ const HomepageCollection = {
       name: "blocks",
       label: "Blocks",
       templates: [
+        HeadingTemplate,
         HeroBlockTemplate,
         PostsBlockTemplate,
         YouTubeEmbedBlockTemplate,

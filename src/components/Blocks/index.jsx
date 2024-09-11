@@ -3,6 +3,7 @@ import { Posts } from "../Posts";
 import { Hero } from "../Hero";
 import { YouTubeEmbed } from "../YouTubeEmbed";
 import {ExplainPanel} from "../ExplainPanel";
+import { Heading } from "../Heading";
 
 export const Blocks = ({ blocks }) => {
   return (
@@ -10,6 +11,12 @@ export const Blocks = ({ blocks }) => {
       {blocks
         ? blocks.map(function (block, i) {
             switch (block._template) {
+              case "heading":
+                return (
+                  <div data-tinafield={`blocks.${i}`} key={i + block._template}>
+                    <Heading data={block} index={i} />
+                  </div>
+                );
               case "hero":
                 return (
                   <div data-tinafield={`blocks.${i}`} key={i + block._template}>
