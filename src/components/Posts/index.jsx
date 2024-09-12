@@ -11,6 +11,7 @@ const Post = ({ image, title, description }) => {
       const data = await client.queries.postConnection()
       console.log(data)
     }
+    
     fetchData()
   })
   return (
