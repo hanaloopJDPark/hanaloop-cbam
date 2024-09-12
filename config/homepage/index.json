@@ -4,12 +4,13 @@
   "description": "Hanaloop insight webpage",
   "blocks": [
     {
-      "_template": "heading"
-    },
-    {
       "document": "docs/intro.mdx",
       "documentLabel": "Hanaloop",
       "_template": "hero"
+    },
+    {
+      "heading": "다양한 기후규제에 대한 인사이트를 공유합니다.",
+      "_template": "heading"
     },
     {
       "title": "CBAM 시리즈",
