@@ -1,3 +1,5 @@
 export const Heading = ({data, index}) => {
-    <h1 className="mt-10 font-bold text-4xl">{data.heading}</h1>
+    return (
+        <div className="w-full text-center h-10 mt-10 font-bold text-4xl mb-5">{data.heading}</div>
+    )
 }

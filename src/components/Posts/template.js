@@ -2,7 +2,7 @@ export const PostsBlockTemplate = {
   name: "posts",
   label: "Posts",
   fields: [
-    {
+    { 
       name: "items",
       label: "Posts",
       type: "object",

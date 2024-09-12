@@ -67,6 +67,21 @@ const PostCollection = {
       required: true,
     },
     {
+      name: "category",
+      label: "Category",
+      type: "string",
+      options: [
+        {
+          label: "CBAM",
+          value: "cbam",
+        },
+        {
+          label: "SCOPE3",
+          value: "scope3"
+        }
+      ]
+    },
+    {
       name: "authors",
       label: "Authors",
       type: "object",

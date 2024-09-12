@@ -4,7 +4,6 @@
   "description": "Hanaloop insight webpage",
   "blocks": [
     {
-      "heading": "Test",
       "_template": "heading"
     },
     {
@@ -17,6 +16,10 @@
       "description": "TEST 입니다TEST 입니다TEST 입니다TEST 입니다TEST 입니다TEST 입니다TEST 입니다TEST 입니다TEST 입니다TEST 입니다TEST 입니다TEST 입니다TEST 입니다TEST 입니다TEST 입니다\n\nTEST 입니다TEST 입니다TEST 입니다TEST 입니다TEST 입니다\n",
       "image": "/img/CBAM_.png",
       "_template": "explain"
+    },
+    {
+      "heading": "HEADING TEST",
+      "_template": "heading"
     },
     {
       "items": [

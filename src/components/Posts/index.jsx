@@ -1,9 +1,18 @@
-import React from "react";
-import styles from "./styles.module.css";
+import React, { useEffect } from "react";
+import { useTina } from "tinacms/dist/react";
+import { client } from '../../../tina/__generated__/client'
 import Link from "@docusaurus/Link";
 
 
 const Post = ({ image, title, description }) => {
+
+  useEffect(() => {
+    const fetchData = async() => {
+      const data = await client.queries.postConnection()
+      console.log(data)
+    }
+    fetchData()
+  })
   return (
     <Link
       className="text-black hover:no-underline hover:text-black"
