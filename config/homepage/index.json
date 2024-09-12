@@ -62,6 +62,23 @@
       "_template": "heading"
     },
     {
+      "items": [
+        {
+          "title": "CBAM 주요개념 및 보고서 개요",
+          "url": "https://www.youtube.com/embed/40GR-XeHkD8",
+          "caption": "[하나루프] 탄소국경조정제도(CBAM) 주요개념 및 EU CBAM 보고서 개요 - 기후 인사이트 수요일(2023.12.06)"
+        },
+        {
+          "title": "CBAM 보고서 준비하기",
+          "url": "https://www.youtube.com/embed/ymIAbswkWog",
+          "caption": "[하나루프] EU 탄소국경조정제도(CBAM) 보고서 준비하기"
+        },
+        {
+          "title": "CBAM, 배터리 규제",
+          "url": "https://www.youtube.com/embed/WmwazB1N30M",
+          "caption": "[하나루프] EU 탄소국경조정제도(CBAM), 배터리 규제 등 국내외 기후규제는 우리 조직에게 위기일까? 기회일까? - 경영진편"
+        }
+      ],
       "_template": "youTubeEmbed"
     }
   ]

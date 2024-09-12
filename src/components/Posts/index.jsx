@@ -36,7 +36,7 @@ const Post = ({ image, title, description }) => {
 
 export const Posts = ({ data, index }) => {
   return (
-    <section key={index} className="w-full flex justify-center">
+    <section key={index} className="w-full flex justify-center mb-[150px]">
       <div className="w-[80%] flex justify-center">
         <div className="flex flex-wrap justify-center gap-5">
           {data.items.map((props, idx) => (
