@@ -77,7 +77,7 @@ const PostCollection = {
         },
         {
           label: "SCOPE3",
-          value: "scope3"
+          value: "SCOPE3"
         }
       ]
     },
@@ -783,6 +783,16 @@ const HomepageCollection = {
       type: "string"
     },
     {
+      name: "site",
+      label: "Site",
+      type: "string"
+    },
+    {
+      name: "test",
+      label: "Test",
+      type: "string"
+    },
+    {
       type: "string",
       label: "Label",
       name: "label",
@@ -826,15 +836,8 @@ const PagesCollection = {
   fields: [
     {
       type: "string",
-      name: "title",
-      label: "Title",
-      isTitle: true,
-      required: true,
-    },
-    {
-      type: "string",
-      name: "description",
-      label: "Description",
+      name: "fetchID",
+      label: "FetchID"
     },
     {
       type: "rich-text",

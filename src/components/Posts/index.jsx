@@ -19,7 +19,7 @@ const Post = ({ image, title, description }) => {
       className="text-black hover:no-underline hover:text-black"
       to={'https://www.hanaloop.com/'}
     >
-      <div className="flex flex-col md:w-[350px] w-[250px] bg-gray-50 rounded-lg p-5 hover:bg-blue-100 ease-in-out duration-500 transition-all">
+      <div className="flex flex-col md:w-[350px] w-[250px] bg-yellow-500 rounded-lg p-5 hover:bg-blue-100 ease-in-out duration-500 transition-all">
         <div className="w-full flex justify-center p-5">
           <div className="flex justify-center bg-white w-[80%]">
             <img className="w-full h-full rounded-lg" src={image} role="img" />
