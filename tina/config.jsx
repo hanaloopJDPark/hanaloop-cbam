@@ -836,8 +836,25 @@ const PagesCollection = {
   fields: [
     {
       type: "string",
-      name: "fetchID",
-      label: "FetchID"
+      name: "title",
+      label: "Title",
+      isTitle: true,
+      required: true,
+    },
+    {
+      type: "string",
+      name: "description",
+      label: "Description",
+    },
+    {
+      type: "string",
+      name: "name",
+      label: "Name",
+    },
+    {
+      type: "string",
+      name: "site",
+      label: "Site"
     },
     {
       type: "rich-text",
