@@ -67,6 +67,17 @@ const PostCollection = {
       required: true,
     },
     {
+      name: "domain",
+      label: "Domain",
+      type: "string",
+      options: [
+        {
+          label: "carbonInsight",
+          value: "carbonInsight",
+        },
+      ]
+    },
+    {
       name: "category",
       label: "Category",
       type: "string",
