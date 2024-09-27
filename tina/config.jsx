@@ -67,6 +67,17 @@ const PostCollection = {
       required: true,
     },
     {
+      type: "string",
+      name: "description",
+      label: "Description",
+    },
+    {
+      type: 'image',
+      label: 'Thumbnail',
+      name: 'thumbnail',
+    },
+
+    {
       name: "domain",
       label: "Domain",
       type: "string",
