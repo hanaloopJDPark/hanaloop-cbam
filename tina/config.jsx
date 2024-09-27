@@ -98,8 +98,8 @@ const PostCollection = {
           value: "cbam",
         },
         {
-          label: "SCOPE3",
-          value: "SCOPE3"
+          label: "Scope",
+          value: "scope"
         }
       ]
     },
